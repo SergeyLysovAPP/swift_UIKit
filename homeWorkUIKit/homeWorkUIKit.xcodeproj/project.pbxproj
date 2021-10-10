@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025BA1202713537E00185CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA11F2713537E00185CAD /* AppDelegate.swift */; };
+		025BA1222713537E00185CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA1212713537E00185CAD /* ViewController.swift */; };
+		025BA1242713537F00185CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025BA1232713537F00185CAD /* Assets.xcassets */; };
+		025BA1272713537F00185CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 025BA1252713537F00185CAD /* Main.storyboard */; };
+		025BA1332713537F00185CAD /* homeWorkUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA1322713537F00185CAD /* homeWorkUIKitTests.swift */; };
+		025BA13E2713537F00185CAD /* homeWorkUIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025BA13D2713537F00185CAD /* homeWorkUIKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		025BA12F2713537F00185CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025BA1142713537E00185CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025BA11B2713537E00185CAD;
+			remoteInfo = homeWorkUIKit;
+		};
+		025BA13A2713537F00185CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025BA1142713537E00185CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025BA11B2713537E00185CAD;
+			remoteInfo = homeWorkUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025BA11C2713537E00185CAD /* homeWorkUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWorkUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025BA11F2713537E00185CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		025BA1212713537E00185CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		025BA1232713537F00185CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		025BA1262713537F00185CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		025BA1282713537F00185CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025BA1292713537F00185CAD /* homeWorkUIKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = homeWorkUIKit.entitlements; sourceTree = "<group>"; };
+		025BA12E2713537F00185CAD /* homeWorkUIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeWorkUIKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025BA1322713537F00185CAD /* homeWorkUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeWorkUIKitTests.swift; sourceTree = "<group>"; };
+		025BA1342713537F00185CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		025BA1392713537F00185CAD /* homeWorkUIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = homeWorkUIKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025BA13D2713537F00185CAD /* homeWorkUIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeWorkUIKitUITests.swift; sourceTree = "<group>"; };
+		025BA13F2713537F00185CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025BA1192713537E00185CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA12B2713537F00185CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA1362713537F00185CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025BA1132713537E00185CAD = {
+			isa = PBXGroup;
+			children = (
+				025BA11E2713537E00185CAD /* homeWorkUIKit */,
+				025BA1312713537F00185CAD /* homeWorkUIKitTests */,
+				025BA13C2713537F00185CAD /* homeWorkUIKitUITests */,
+				025BA11D2713537E00185CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025BA11D2713537E00185CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025BA11C2713537E00185CAD /* homeWorkUIKit.app */,
+				025BA12E2713537F00185CAD /* homeWorkUIKitTests.xctest */,
+				025BA1392713537F00185CAD /* homeWorkUIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025BA11E2713537E00185CAD /* homeWorkUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				025BA11F2713537E00185CAD /* AppDelegate.swift */,
+				025BA1212713537E00185CAD /* ViewController.swift */,
+				025BA1232713537F00185CAD /* Assets.xcassets */,
+				025BA1252713537F00185CAD /* Main.storyboard */,
+				025BA1282713537F00185CAD /* Info.plist */,
+				025BA1292713537F00185CAD /* homeWorkUIKit.entitlements */,
+			);
+			path = homeWorkUIKit;
+			sourceTree = "<group>";
+		};
+		025BA1312713537F00185CAD /* homeWorkUIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				025BA1322713537F00185CAD /* homeWorkUIKitTests.swift */,
+				025BA1342713537F00185CAD /* Info.plist */,
+			);
+			path = homeWorkUIKitTests;
+			sourceTree = "<group>";
+		};
+		025BA13C2713537F00185CAD /* homeWorkUIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				025BA13D2713537F00185CAD /* homeWorkUIKitUITests.swift */,
+				025BA13F2713537F00185CAD /* Info.plist */,
+			);
+			path = homeWorkUIKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025BA11B2713537E00185CAD /* homeWorkUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025BA1422713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKit" */;
+			buildPhases = (
+				025BA1182713537E00185CAD /* Sources */,
+				025BA1192713537E00185CAD /* Frameworks */,
+				025BA11A2713537E00185CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = homeWorkUIKit;
+			productName = homeWorkUIKit;
+			productReference = 025BA11C2713537E00185CAD /* homeWorkUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025BA12D2713537F00185CAD /* homeWorkUIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025BA1452713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKitTests" */;
+			buildPhases = (
+				025BA12A2713537F00185CAD /* Sources */,
+				025BA12B2713537F00185CAD /* Frameworks */,
+				025BA12C2713537F00185CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025BA1302713537F00185CAD /* PBXTargetDependency */,
+			);
+			name = homeWorkUIKitTests;
+			productName = homeWorkUIKitTests;
+			productReference = 025BA12E2713537F00185CAD /* homeWorkUIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025BA1382713537F00185CAD /* homeWorkUIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025BA1482713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKitUITests" */;
+			buildPhases = (
+				025BA1352713537F00185CAD /* Sources */,
+				025BA1362713537F00185CAD /* Frameworks */,
+				025BA1372713537F00185CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025BA13B2713537F00185CAD /* PBXTargetDependency */,
+			);
+			name = homeWorkUIKitUITests;
+			productName = homeWorkUIKitUITests;
+			productReference = 025BA1392713537F00185CAD /* homeWorkUIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025BA1142713537E00185CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					025BA11B2713537E00185CAD = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					025BA12D2713537F00185CAD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 025BA11B2713537E00185CAD;
+					};
+					025BA1382713537F00185CAD = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 025BA11B2713537E00185CAD;
+					};
+				};
+			};
+			buildConfigurationList = 025BA1172713537E00185CAD /* Build configuration list for PBXProject "homeWorkUIKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025BA1132713537E00185CAD;
+			productRefGroup = 025BA11D2713537E00185CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025BA11B2713537E00185CAD /* homeWorkUIKit */,
+				025BA12D2713537F00185CAD /* homeWorkUIKitTests */,
+				025BA1382713537F00185CAD /* homeWorkUIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025BA11A2713537E00185CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BA1242713537F00185CAD /* Assets.xcassets in Resources */,
+				025BA1272713537F00185CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA12C2713537F00185CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA1372713537F00185CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025BA1182713537E00185CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BA1222713537E00185CAD /* ViewController.swift in Sources */,
+				025BA1202713537E00185CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA12A2713537F00185CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BA1332713537F00185CAD /* homeWorkUIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025BA1352713537F00185CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025BA13E2713537F00185CAD /* homeWorkUIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025BA1302713537F00185CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025BA11B2713537E00185CAD /* homeWorkUIKit */;
+			targetProxy = 025BA12F2713537F00185CAD /* PBXContainerItemProxy */;
+		};
+		025BA13B2713537F00185CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025BA11B2713537E00185CAD /* homeWorkUIKit */;
+			targetProxy = 025BA13A2713537F00185CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		025BA1252713537F00185CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				025BA1262713537F00185CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		025BA1402713537F00185CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025BA1412713537F00185CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		025BA1432713537F00185CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = homeWorkUIKit/homeWorkUIKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		025BA1442713537F00185CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = homeWorkUIKit/homeWorkUIKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		025BA1462713537F00185CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeWorkUIKit.app/Contents/MacOS/homeWorkUIKit";
+			};
+			name = Debug;
+		};
+		025BA1472713537F00185CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/homeWorkUIKit.app/Contents/MacOS/homeWorkUIKit";
+			};
+			name = Release;
+		};
+		025BA1492713537F00185CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = homeWorkUIKit;
+			};
+			name = Debug;
+		};
+		025BA14A2713537F00185CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = homeWorkUIKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = homeWorkUIKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025BA1172713537E00185CAD /* Build configuration list for PBXProject "homeWorkUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BA1402713537F00185CAD /* Debug */,
+				025BA1412713537F00185CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025BA1422713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BA1432713537F00185CAD /* Debug */,
+				025BA1442713537F00185CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025BA1452713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BA1462713537F00185CAD /* Debug */,
+				025BA1472713537F00185CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025BA1482713537F00185CAD /* Build configuration list for PBXNativeTarget "homeWorkUIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025BA1492713537F00185CAD /* Debug */,
+				025BA14A2713537F00185CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025BA1142713537E00185CAD /* Project object */;
+}
