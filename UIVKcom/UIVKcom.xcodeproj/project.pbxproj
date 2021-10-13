@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02279D3D271357EB00B630CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D3C271357EB00B630CD /* AppDelegate.swift */; };
-		02279D3F271357EB00B630CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D3E271357EB00B630CD /* SceneDelegate.swift */; };
-		02279D41271357EB00B630CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D40271357EB00B630CD /* ViewController.swift */; };
-		02279D44271357EB00B630CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02279D42271357EB00B630CD /* Main.storyboard */; };
-		02279D46271357EB00B630CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02279D45271357EB00B630CD /* Assets.xcassets */; };
-		02279D49271357EB00B630CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02279D47271357EB00B630CD /* LaunchScreen.storyboard */; };
+		02279D5D2715F44000B630CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D5C2715F44000B630CD /* AppDelegate.swift */; };
+		02279D5F2715F44000B630CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D5E2715F44000B630CD /* SceneDelegate.swift */; };
+		02279D642715F44000B630CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02279D622715F44000B630CD /* Main.storyboard */; };
+		02279D662715F44100B630CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02279D652715F44100B630CD /* Assets.xcassets */; };
+		02279D692715F44100B630CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02279D672715F44100B630CD /* LaunchScreen.storyboard */; };
+		02279D712715F4DE00B630CD /* LoginFormControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02279D702715F4DE00B630CD /* LoginFormControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02279D39271357EB00B630CD /* homeWorkUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = homeWorkUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		02279D3C271357EB00B630CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02279D3E271357EB00B630CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		02279D40271357EB00B630CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02279D43271357EB00B630CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		02279D45271357EB00B630CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		02279D48271357EB00B630CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		02279D4A271357EB00B630CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02279D592715F44000B630CD /* UIVKcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVKcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02279D5C2715F44000B630CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02279D5E2715F44000B630CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02279D632715F44000B630CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02279D652715F44100B630CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02279D682715F44100B630CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02279D6A2715F44100B630CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02279D702715F4DE00B630CD /* LoginFormControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02279D36271357EB00B630CD /* Frameworks */ = {
+		02279D562715F44000B630CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,71 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02279D30271357EA00B630CD = {
+		02279D502715F44000B630CD = {
 			isa = PBXGroup;
 			children = (
-				02279D3B271357EB00B630CD /* homeWorkUIKit */,
-				02279D3A271357EB00B630CD /* Products */,
+				02279D5B2715F44000B630CD /* UIVKcom */,
+				02279D5A2715F44000B630CD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		02279D3A271357EB00B630CD /* Products */ = {
+		02279D5A2715F44000B630CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02279D39271357EB00B630CD /* homeWorkUIKit.app */,
+				02279D592715F44000B630CD /* UIVKcom.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		02279D3B271357EB00B630CD /* homeWorkUIKit */ = {
+		02279D5B2715F44000B630CD /* UIVKcom */ = {
 			isa = PBXGroup;
 			children = (
-				02279D3C271357EB00B630CD /* AppDelegate.swift */,
-				02279D3E271357EB00B630CD /* SceneDelegate.swift */,
-				02279D40271357EB00B630CD /* ViewController.swift */,
-				02279D42271357EB00B630CD /* Main.storyboard */,
-				02279D45271357EB00B630CD /* Assets.xcassets */,
-				02279D47271357EB00B630CD /* LaunchScreen.storyboard */,
-				02279D4A271357EB00B630CD /* Info.plist */,
+				02279D5C2715F44000B630CD /* AppDelegate.swift */,
+				02279D5E2715F44000B630CD /* SceneDelegate.swift */,
+				02279D622715F44000B630CD /* Main.storyboard */,
+				02279D702715F4DE00B630CD /* LoginFormControllerViewController.swift */,
+				02279D652715F44100B630CD /* Assets.xcassets */,
+				02279D672715F44100B630CD /* LaunchScreen.storyboard */,
+				02279D6A2715F44100B630CD /* Info.plist */,
 			);
-			path = homeWorkUIKit;
+			path = UIVKcom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02279D38271357EB00B630CD /* homeWorkUIKit */ = {
+		02279D582715F44000B630CD /* UIVKcom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02279D4D271357EB00B630CD /* Build configuration list for PBXNativeTarget "homeWorkUIKit" */;
+			buildConfigurationList = 02279D6D2715F44100B630CD /* Build configuration list for PBXNativeTarget "UIVKcom" */;
 			buildPhases = (
-				02279D35271357EB00B630CD /* Sources */,
-				02279D36271357EB00B630CD /* Frameworks */,
-				02279D37271357EB00B630CD /* Resources */,
+				02279D552715F44000B630CD /* Sources */,
+				02279D562715F44000B630CD /* Frameworks */,
+				02279D572715F44000B630CD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = homeWorkUIKit;
-			productName = homeWorkUIKit;
-			productReference = 02279D39271357EB00B630CD /* homeWorkUIKit.app */;
+			name = UIVKcom;
+			productName = UIVKcom;
+			productReference = 02279D592715F44000B630CD /* UIVKcom.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		02279D31271357EA00B630CD /* Project object */ = {
+		02279D512715F44000B630CD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					02279D38271357EB00B630CD = {
+					02279D582715F44000B630CD = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 02279D34271357EA00B630CD /* Build configuration list for PBXProject "homeWorkUIKit" */;
+			buildConfigurationList = 02279D542715F44000B630CD /* Build configuration list for PBXProject "UIVKcom" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,55 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 02279D30271357EA00B630CD;
-			productRefGroup = 02279D3A271357EB00B630CD /* Products */;
+			mainGroup = 02279D502715F44000B630CD;
+			productRefGroup = 02279D5A2715F44000B630CD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02279D38271357EB00B630CD /* homeWorkUIKit */,
+				02279D582715F44000B630CD /* UIVKcom */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		02279D37271357EB00B630CD /* Resources */ = {
+		02279D572715F44000B630CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02279D49271357EB00B630CD /* LaunchScreen.storyboard in Resources */,
-				02279D46271357EB00B630CD /* Assets.xcassets in Resources */,
-				02279D44271357EB00B630CD /* Main.storyboard in Resources */,
+				02279D692715F44100B630CD /* LaunchScreen.storyboard in Resources */,
+				02279D662715F44100B630CD /* Assets.xcassets in Resources */,
+				02279D642715F44000B630CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02279D35271357EB00B630CD /* Sources */ = {
+		02279D552715F44000B630CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02279D41271357EB00B630CD /* ViewController.swift in Sources */,
-				02279D3D271357EB00B630CD /* AppDelegate.swift in Sources */,
-				02279D3F271357EB00B630CD /* SceneDelegate.swift in Sources */,
+				02279D712715F4DE00B630CD /* LoginFormControllerViewController.swift in Sources */,
+				02279D5D2715F44000B630CD /* AppDelegate.swift in Sources */,
+				02279D5F2715F44000B630CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		02279D42271357EB00B630CD /* Main.storyboard */ = {
+		02279D622715F44000B630CD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				02279D43271357EB00B630CD /* Base */,
+				02279D632715F44000B630CD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		02279D47271357EB00B630CD /* LaunchScreen.storyboard */ = {
+		02279D672715F44100B630CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				02279D48271357EB00B630CD /* Base */,
+				02279D682715F44100B630CD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		02279D4B271357EB00B630CD /* Debug */ = {
+		02279D6B2715F44100B630CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		02279D4C271357EB00B630CD /* Release */ = {
+		02279D6C2715F44100B630CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,36 +281,36 @@
 			};
 			name = Release;
 		};
-		02279D4E271357EB00B630CD /* Debug */ = {
+		02279D6E2715F44100B630CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = homeWorkUIKit/Info.plist;
+				INFOPLIST_FILE = UIVKcom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.UIVKcom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		02279D4F271357EB00B630CD /* Release */ = {
+		02279D6F2715F44100B630CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = homeWorkUIKit/Info.plist;
+				INFOPLIST_FILE = UIVKcom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.homeWorkUIKit";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey-Lysov.UIVKcom";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02279D34271357EA00B630CD /* Build configuration list for PBXProject "homeWorkUIKit" */ = {
+		02279D542715F44000B630CD /* Build configuration list for PBXProject "UIVKcom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02279D4B271357EB00B630CD /* Debug */,
-				02279D4C271357EB00B630CD /* Release */,
+				02279D6B2715F44100B630CD /* Debug */,
+				02279D6C2715F44100B630CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02279D4D271357EB00B630CD /* Build configuration list for PBXNativeTarget "homeWorkUIKit" */ = {
+		02279D6D2715F44100B630CD /* Build configuration list for PBXNativeTarget "UIVKcom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02279D4E271357EB00B630CD /* Debug */,
-				02279D4F271357EB00B630CD /* Release */,
+				02279D6E2715F44100B630CD /* Debug */,
+				02279D6F2715F44100B630CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 02279D31271357EA00B630CD /* Project object */;
+	rootObject = 02279D512715F44000B630CD /* Project object */;
 }

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  homeWorkUIKit
+//  UIVKcom
 //
-//  Created by Сергей Лысов on 10.10.2021.
+//  Created by Сергей Лысов on 12.10.2021.
 //
 
 import UIKit
